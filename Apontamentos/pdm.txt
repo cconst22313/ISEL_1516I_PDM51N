@@ -1,0 +1,33 @@
+
+
+************************************************************************
+* 24.09.2015
+************************************************************************
+
+Inversion Of Control... o demónio!
+É a perca de controle quando se usam ambientes gráficos!
+
+Ter em consideração que o JRE deverá ser o 6....
+
+Processo de construção de um projeto android é compricada
+* 1 - um compilador JAVA (javac)... pega em *.java e transforma em *.jar
+* 2 - Resrouces, coisas relevantes, mas que não são código
+* mitura tudo, e cria um *.apk e ainda o manifesto. Por exemplo, no manifesto, diz-se quais os requistos no dispositivo alvo... entre outras coisas
+
+Activitiy:
+é apresentar coisas e recolher input dos utilizadores.
+A diferença fundamental é... não existe main( ... )
+
+Então como é que isto arranca?
+onCreate(...) é chamado para constituir a user interface que está a ser pedida
+
+Normas/Regras
+1. Regra: Método de setup/preparação, logo a primeira coisa a fazer é chamar 	o método da base
+
+2. Regra: métodos de teardown/destruição: chama-se o metodo da base no final!
+
+
+-> Controlos gráficos são objectos que se representam visualmente
+	- Simples
+	- Compostos
+		- layout é um controlo cujo proposito é conter outros e tratar do seu ajuste (dos simples)
