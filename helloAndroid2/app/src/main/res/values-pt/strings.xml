@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello Andoid</string>
+    <string name="msg_hello">Olá Android</string>
+    <string name="txt_btn_Say_hello">Diz lá!</string>
+</resources>

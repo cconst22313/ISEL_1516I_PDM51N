@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="msg_hello">Hello world!</string>
+    <string name="txt_btn_Say_hello">Say it!</string>
+    <string name="app_name" translatable="false">Hello Andoid</string>
+    <string name="action_settings">content</string>
+</resources>

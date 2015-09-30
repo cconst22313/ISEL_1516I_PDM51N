@@ -20,25 +20,26 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Increment"
+        android:text="@string/incBtn"
         android:id="@+id/incBtn"
-        android:layout_below="@+id/valueTV"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:clickable="true"
         android:enabled="true"
-        android:onClick="onIncClick" />
+        android:onClick="onIncClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Decrement"
+        android:text="@string/decBtn"
         android:id="@+id/decBtn"
-        android:layout_alignTop="@+id/incBtn"
-        android:layout_centerHorizontal="true"
         android:clickable="true"
         android:enabled="true"
-        android:onClick="onDecClick" />
+        android:onClick="onDecClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -46,9 +47,8 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/editTV"
+        android:text="@string/zeroValue"
         android:layout_below="@+id/incBtn"
-        android:layout_toLeftOf="@+id/decBtn"
-        android:layout_toStartOf="@+id/decBtn"
-        android:text="0" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -31,3 +31,38 @@ Normas/Regras
 	- Simples
 	- Compostos
 		- layout é um controlo cujo proposito é conter outros e tratar do seu ajuste (dos simples)
+
+************************************************************************
+* 29.09.2015
+************************************************************************
+
+IOC - (inversion of Control) Consequencias
+	- Modelo de eventos - Introdução
+	- Activity lifecicle
+
+
+Consquências do IOC:
+~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+Nota: para multilingua sem grandes stresses: usar os resourses.
+Existe um ficheiro "strings.xml" para ser usado por omissão
+Ter cuidado com os nomes dados (Um package em JAVA serve para isolar espçao de nomes. PAra evitar colisões...).
+Como começa a crescer, existe a grande probabilidade de existirem colisões. Para evitar essas coisas, temos que arranjar uma convenção.
+
+A user interface é composto por 3 coisas:
+				Relative Layout
+				/			\
+			   /			 \
+		Text View			Button
+
+Os controlos gráficos são objectos... nós só temos que manipular o seu estado. É a consequencia da sua manipulação, é o controlo ser pintado de novo, mas não é nossa responsabilidade
+
+
+
+
+
+
+

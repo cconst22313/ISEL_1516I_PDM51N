@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyActivities101</string>
+    <string name="txt_main_activity">Main Activity</string>
+    <string name="txt_other_activity">Other Activity</string>
+    <string name="hashCodeTxt">HashCode</string>
+    <string name="btnOther">Other</string>
+    <string name="btn_main">Main</string>
+    <string name="btn_back">Back</string>
+</resources>

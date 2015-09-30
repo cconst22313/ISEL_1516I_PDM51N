@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="decBtn">Decrement</string>
+    <string name="incBtn">Increment</string>
+    <string name="zeroValue">0</string>
 </resources>
