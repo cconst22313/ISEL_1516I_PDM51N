@@ -11,7 +11,7 @@ public class MainActivity extends LifeCycleActivityBase {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView hashCode = (TextView) findViewById(R.id.tvHashValue);
-        hashCode.setText(mainItent.hashCode() + "");
+        hashCode.setText(this.hashCode() + "");
 //        Intent intent = getIntent();
 //        TextView hashCode = (TextView) findViewById(R.id.tvHashValue);
 //        hashCode.setText(this.hashCode() + "");

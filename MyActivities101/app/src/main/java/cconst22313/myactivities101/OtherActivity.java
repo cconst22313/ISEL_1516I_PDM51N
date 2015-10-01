@@ -15,10 +15,10 @@ public class OtherActivity extends LifeCycleActivityBase {
         setContentView(R.layout.other_activity);
         TextView hashCode = (TextView) findViewById(R.id.tvHashValue);
         hashCode.setText(this.hashCode() + "");
-//        Intent intent = getIntent();
+//        final Intent intent = getIntent();
 //        TextView hashCode = (TextView) findViewById(R.id.tvHashValue);
 //        hashCode.setText(this.hashCode() + "");
-//        final OtherActivity otherAct = this;
+        final OtherActivity otherAct = this;
 //        //register events on buttons
 //        findViewById(R.id.btnMain).setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -49,6 +49,13 @@ public class OtherActivity extends LifeCycleActivityBase {
             @Override
             public void onClick(View source) {
                 otherClick();
+            }
+        });
+
+        findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                otherAct.finish();
             }
         });
 

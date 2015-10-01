@@ -58,7 +58,25 @@ A user interface é composto por 3 coisas:
 			   /			 \
 		Text View			Button
 
-Os controlos gráficos são objectos... nós só temos que manipular o seu estado. É a consequencia da sua manipulação, é o controlo ser pintado de novo, mas não é nossa responsabilidade
+Os controlos gráficos são objectos... nós só temos que manipular o seu estado. É a consequencia da sua manipulação, é o controlo ser pintado de novo, mas não é nossa responsabilidade.
+
+
+Para se registar os eventos e iniciar os elementos, temos duas formas:
+1. redefinir
+2. criar
+
+Nota: neste modelo de eventos apenas temos um listener, enquanto que no AWT (Java) e outros dá para adicionar mais do que um... PORQUÊ?
+
+
+Desafio!
+Activities101
+qual a dinâmica dos callbacks?
+. uma activity
+com um texto
+hasCode: textBox para receber o valor
+dois botões: other main
+criar uma outra activity, semelhante, mas adicionando um back (opcional)
+
 
 
 
